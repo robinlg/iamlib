@@ -93,6 +93,11 @@ func randString(letters string, n int) string {
 	return string(output)
 }
 
+// NewSecretID returns a secretID.
+func NewSecretID() string {
+	return randString(Alphabet62, 36)
+}
+
 // NewSecretKey returns a secretKey or password.
 func NewSecretKey() string {
 	return randString(Alphabet62, 32)
