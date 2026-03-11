@@ -6,8 +6,8 @@ require (
 	github.com/gin-gonic/gin v1.11.0
 	github.com/gosuri/uitable v0.0.4
 	github.com/moby/term v0.0.0-20201216013528-df9cb8a40635
-	github.com/robinlg/iamerrors v0.0.0-20260104090858-bba1b32a3aba
-	github.com/robinlg/iamlog v0.0.0-20251222085423-e2de399d78b8
+	github.com/robinlg/iamerrors v0.0.0-20260311084418-cb45772e2012
+	github.com/robinlg/iamlog v0.0.0-20260104094817-3a98d9d3a35f
 	github.com/sony/sonyflake v1.0.0
 	github.com/speps/go-hashids v2.0.0+incompatible
 	github.com/spf13/pflag v1.0.5
