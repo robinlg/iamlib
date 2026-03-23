@@ -4,21 +4,22 @@
 // this file is https://github.com/robinlg/onexblog. The professional
 // version of this repository is https://github.com/robinlg/onexblog.
 
-//go:build !jsoniter
+//go:build jsoniter
 
 package json
 
-import "encoding/json"
+import jsoniter "github.com/json-iterator/go"
 
 // RawMessage is exported by component-base/pkg/json package.
-type RawMessage = json.RawMessage
+type RawMessage = jsoniter.RawMessage
 
 var (
+	json = jsoniter.ConfigCompatibleWithStandardLibrary
 	// Marshal is exported by component-base/pkg/json package.
 	Marshal = json.Marshal
 	// Unmarshal is exported by component-base/pkg/json package.
 	Unmarshal = json.Unmarshal
-	// MarshalIndent is exported by component-base/pkg/json package.
+	// MarshalIndent is exported by component-base/pkgn/json package.
 	MarshalIndent = json.MarshalIndent
 	// NewDecoder is exported by component-base/pkg/json package.
 	NewDecoder = json.NewDecoder
