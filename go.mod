@@ -12,7 +12,7 @@ require (
 	github.com/json-iterator/go v1.1.12
 	github.com/moby/term v0.0.0-20201216013528-df9cb8a40635
 	github.com/robinlg/iamerrors v0.0.0-20260327071612-31ded963321e
-	github.com/robinlg/iamlog v0.0.0-20260104094817-3a98d9d3a35f
+	github.com/robinlg/iamlog v0.0.0-20260404031232-027bd43c11e7
 	github.com/sony/sonyflake v1.0.0
 	github.com/speps/go-hashids v2.0.0+incompatible
 	github.com/spf13/pflag v1.0.5
